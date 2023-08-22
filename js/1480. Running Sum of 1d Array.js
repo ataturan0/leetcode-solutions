@@ -3,16 +3,11 @@
  * @return {number[]}
  */
 var runningSum = function (nums) {
-  const sumArray = [];
-  //Loop through all elements in the array using a for loop
-  for (let i = 0; i < nums.length; i++) {
-    // Calculate the running sum for each element
-    let tempSum = 0;
-    for (let j = 0; j <= i; j++) {
-      tempSum += nums[j];
-    }
-    sumArray[i] = tempSum;
+  // Iterate through each element in the array using a for loop
+  for (let i = 1; i < nums.length; i++) {
+    // Calculate the running sum for the current element by adding the previous element's value
+    nums[i] += nums[i - 1];
   }
-  console.log(sumArray);
-  return sumArray;
+  console.log(nums);
+  return nums;
 };
