@@ -23,6 +23,7 @@ var middleNode = function (head) {
   console.log("listlength/2 => " + listLength / 2);
   let findMiddleOrSecondMiddleNode = head;
 
+  // Move towards the middle or second middle node of the linked list.
   for (let i = 1; i < Math.floor(listLength / 2) + 1; i++) {
     findMiddleOrSecondMiddleNode = findMiddleOrSecondMiddleNode.next;
   }
@@ -31,11 +32,12 @@ var middleNode = function (head) {
   return findMiddleOrSecondMiddleNode;
 };
 
+/*
 function ListNode(val, next) {
   this.val = val === undefined ? 0 : val;
   this.next = next === undefined ? null : next;
 }
-
+*/
 /*
 // Test Case 1
 // head = [1, 2, 3, 4, 5]
