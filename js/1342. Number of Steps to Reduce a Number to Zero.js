@@ -17,6 +17,6 @@ var numberOfSteps = function (num) {
   return stepsNeededToReduceToZero;
 };
 
-//console.log(numberOfSteps(10));
+console.log(numberOfSteps(14));
 
 //Time Complexity: O(logn)
