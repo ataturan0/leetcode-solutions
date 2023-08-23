@@ -10,13 +10,10 @@ var numberOfSteps = function (num) {
       stepsNeededToReduceToZero++;
     } else {
       num = num - 1;
-      num = num / 2;
       stepsNeededToReduceToZero++;
     }
   }
   return stepsNeededToReduceToZero;
 };
 
-console.log(numberOfSteps(14));
-
-//Time Complexity: O(logn)
+//Time Complexity O(logn)
