@@ -10,10 +10,12 @@
  * @return {ListNode}
  */
 var middleNode = function (head) {
+  // Initialize a pointer to the next node after the head.
   let nextNode = head.next;
+  // Initialize a variable to keep track of the length of the linked list.
   let listLength = 1;
 
-  //Find lenght of linked list
+  // Calculate the length of the linked list.
   while (nextNode != null) {
     listLength++;
     nextNode = nextNode.next;
@@ -25,6 +27,7 @@ var middleNode = function (head) {
     findMiddleOrSecondMiddleNode = findMiddleOrSecondMiddleNode.next;
   }
 
+  // Return the middle or second middle node of the linked list.
   return findMiddleOrSecondMiddleNode;
 };
 
