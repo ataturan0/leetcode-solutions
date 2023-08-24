@@ -12,6 +12,7 @@ This repository contains the solutions for leetcode problems that I have solved.
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/1342.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20to%20Zero.js) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/876.%20Middle%20of%20the%20Linked%20List.js) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/383.%20Ransom%20Note.js) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/1.%20Two%20Sum.js) |
 
 
 
