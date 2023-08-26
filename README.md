@@ -15,6 +15,8 @@ This repository contains the solutions for leetcode problems that I have solved.
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/1.%20Two%20Sum.js) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/13.%20Roman%20to%20Integer.js) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/14.%20Longest%20Common%20Prefix.js) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](https://github.com/ataturan0/leetcode-solutions/blob/main/js/20.%20Valid%20Parantheses.js) |
+
 
 
 
